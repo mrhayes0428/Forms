@@ -1,0 +1,17 @@
+html{
+  background-image: url("curcit-wood.png");
+  color:rgb(152, 240, 11);
+}
+input{
+   color: rgb(152, 240, 11);
+}
+button{
+  border-radius: 5%;
+  color: rgb(255, 0, 255);
+  background-color: yellow;
+}
+button:hover{
+  color:aqua;
+  border-radius: 5deg;
+  border-color: rgb(255, 0, 255);
+}

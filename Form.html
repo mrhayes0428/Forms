@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form project</title>
+</head>
+<link href="form.css" rel="stylesheet">
+<main>  
+  <h1>Thank you for visiting. Please take a minuet and fill out the following form.</h1>
+  <form action="">
+    <fieldset>
+    Name:      
+      <input type="text" placeholder="Name" required/>
+    <p>E-mail:   <input type="text" placeholder="Enter your E-mail" required/></p>
+      <p>Age (optional)  <input type="text" placeholder="Age"></p>
+    <p>Which Option Best Describes you.</p>
+      <select id="dropdown" type="selector" placeholder="chose one" required>
+      <option value="super tech savey">Super Tech Savey</option>
+      <option value="have to have all the cool new tech">Must have all the new cool tech.</option>
+      <option value="interested in tech">Interested in tech</option>
+      <option value="dabble in tech">Dabble in tech</option>
+      <option value="what is tech?">What is tech</option>
+      </select>
+    <p>Would you recommend Electronic Connection to a friend?</p>
+      <input type="checkbox" id="definitley"/>Definitely
+      <input type="checkbox" id="Maybe"/>Maybe
+      <input type="checkbox" id="Not Sure"/>Not Sure
+    <p>What is your favorite type of reviews</p>
+      <select type="selector" placeholder="select one">
+        <option value="headphones">Headphones</option>
+        <option value="computer">Computer</option>
+        <option value="speakers">Speakers</option>
+      </select>
+    <p>What would you like to see more of?</p>
+      <input type="checkbox" id="phone reviews"/>Phone reviews
+      <input type="checkbox" id="computer reviews"/>Computer reviews
+      <input type="checkbox" id="headphone reviews"/>Headphone reviews
+    <p>Any comments or suggestions?</p>
+      <textarea id="Comments"
+                rows="10"
+                cols="100">
+      </textarea>
+      <p>
+      <button id="submit" type="submit">Submit</button>
+      <button id="reset" type="reset">Reset</button>
+      </p>
+  </fieldset>    
+</form>
+</main>
+</html>
